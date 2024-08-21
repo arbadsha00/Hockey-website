@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hockey</title>
+    <!-- daisyui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              red: "#FF4240",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/374ce514ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-manrope">
+    <header class="container mx-auto">
+      <nav class="my-6">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li>
+                  <a class="hover:text-red duration-300 ease-in-out">Home</a>
+                </li>
+                <li>
+                  <a class="hover:text-red duration-300 ease-in-out">About</a>
+                </li>
+                <li>
+                  <a class="hover:text-red duration-300 ease-in-out">Pages</a>
+                </li>
+                <li>
+                  <a class="hover:text-red duration-300 ease-in-out">Blog</a>
+                </li>
+                <li>
+                  <a class="hover:text-red duration-300 ease-in-out">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <a class="text-3xl font-extrabold"
+              >Hockey<span class="text-red">’</span>s</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-base font-bold">
+              <li>
+                <a class="hover:text-red duration-300 ease-in-out">Home</a>
+              </li>
+              <li>
+                <a class="hover:text-red duration-300 ease-in-out">About</a>
+              </li>
+              <li>
+                <a class="hover:text-red duration-300 ease-in-out">Pages</a>
+              </li>
+              <li>
+                <a class="hover:text-red duration-300 ease-in-out">Blog</a>
+              </li>
+              <li>
+                <a class="hover:text-red duration-300 ease-in-out">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn font-bold text-xl text-white bg-red">Get Ticket</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
