@@ -84,7 +84,7 @@
                 </li>
               </ul>
             </div>
-            <a class="text-3xl font-extrabold"
+            <a class="text-2xl md:text-3xl font-extrabold"
               >Hockey<span class="text-red">’</span>s</a
             >
           </div>
@@ -108,7 +108,7 @@
             </ul>
           </div>
           <div class="navbar-end">
-            <a class="btn font-bold text-xl text-white bg-red">Get Ticket</a>
+            <a class="btn font-bold md:text-xl text-white bg-red">Get Ticket</a>
           </div>
         </div>
       </nav>
@@ -640,7 +640,144 @@
           </div>
         </div>
       </section>
+      <!-- get in touch -->
+      <section class="px-3">
+        <!-- text -->
+        <section class="my-6 md:my-10 lg:my-20">
+          <div class="text-center space-y-6 border-y-2 py-6 border-dashed">
+            <h1 class="text-4xl font-extrabold">Get in Touch</h1>
+            <p class="text-gray-400">
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat dolor. Purus urna in sit nullam proin.
+            </p>
+          </div>
+        </section>
+        <!-- card -->
+        <div
+          class="my-6 md:my-10 lg:my-20 flex flex-col lg:flex-row gap-5 justify-between"
+        >
+          <!-- contact -->
+          <div class="space-y-5">
+            <div class="card card-side bg-base-100 shadow-xl">
+              <div class="card-body overflow-hidden">
+                <h2 class="card-title">
+                  <i
+                    class="fa-solid fa-envelope text-white bg-red p-3 rounded-full"
+                  ></i>
+
+                  hockeys@support.com
+                </h2>
+              </div>
+            </div>
+            <div class="card card-side bg-base-100 shadow-xl">
+              <div class="card-body">
+                <h2 class="card-title">
+                  <i
+                    class="fa-solid fa-map text-white bg-red p-3 rounded-full"
+                  ></i>
+
+                  152/1 Mohakhali Wireless Gate
+                </h2>
+              </div>
+            </div>
+            <div class="card card-side bg-base-100 shadow-xl">
+              <div class="card-body">
+                <h2 class="card-title">
+                  <i
+                    class="fa-solid fa-phone text-white bg-red p-3 rounded-full"
+                  ></i>
+                  (+62) 123-321-543
+                </h2>
+              </div>
+            </div>
+          </div>
+          <!-- form -->
+
+          <form class="grid grid-cols-1 md:grid-cols-2 gap-5 lg:w-4/6">
+            <input
+              type="text"
+              placeholder="First Name*"
+              class="input w-full rounded-full bg-slate-100"
+            />
+            <input
+              type="text"
+              placeholder="Last Name*"
+              class="input w-full rounded-full bg-slate-100"
+            />
+            <input
+              type="text"
+              placeholder="Phone Number*"
+              class="input w-full rounded-full bg-slate-100"
+            />
+            <input
+              type="text"
+              placeholder="Email Number*"
+              class="input w-full rounded-full bg-slate-100"
+            />
+            <textarea
+              class="textarea w-full rounded-3xl md:col-span-2 bg-slate-100"
+              placeholder="Write your message here"
+              rows="5"
+            ></textarea>
+            <div class="md:col-span-2">
+              <a
+                class="w-full btn font-extrabold text-xl bg-red rounded-full text-white"
+                >Send Mail</a
+              >
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- social media -->
+      <section
+        class="my-6 md:my-10 lg:my-20 space-y-5 bg-slate-200 p-5 rounded-xl mx-3"
+      >
+        <div>
+          <h1 class="text-2xl font-extrabold text-center">Social Media</h1>
+        </div>
+
+        <div class="text-3xl text-center space-x-10">
+          <i class="fa-brands fa-twitter hover:text-red"></i>
+          <i class="fa-brands fa-facebook hover:text-red"></i>
+          <i class="fa-brands fa-github hover:text-red"></i>
+          <i class="fa-brands fa-square-instagram hover:text-red"></i>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <!--footer background -->
+    <section class="bg-slate-900">
+      <footer
+        class="footer text-gray-300 text-base-content p-10 container mx-auto justify-between"
+      >
+        <aside class=""">
+          <h1 class="text-2xl font-extrabold">Get In Touch</h1>
+          <p class="w-4/6">
+            Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. 
+          </p>
+          <p><i class="fa-solid fa-envelope text-red text-xl"></i>  hockeys@support.com</p>
+          <p><i class="fa-solid fa-phone text-red text-xl"></i>  (+62) 123-321-543</p>
+        </aside>
+        <nav>
+          <h6 class="footer-title">Services</h6>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Company</h6>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Legal</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+      </footer>
+    </section>
   </body>
 </html>
